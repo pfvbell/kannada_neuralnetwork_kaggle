@@ -12,3 +12,12 @@ I took a sequential approach, changing one hyperparameter at a time and seeing i
 
 Below is the accuracy (left) and loss (right).
 ![](/images/Accuracy%20and%20Loss.png)
+
+## Data
+The Kannada MNIST dataset was used, which is a large database of handwritten digits in the indigenous language Kannada.
+
+This dataset consists of 60,000 28x28 grayscale images of the ten digits, along with a test set of 10,000 images.
+
+For this homework, we will simplify the problem by only using the digits labeled 0 and 1 owing to the similarity of the two symbols, and we will use a total of 1,200 samples for training (this includes the data you will use for validation).
+
+More details: https://arxiv.org/pdf/1908.01242.pdf
